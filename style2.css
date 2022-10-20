@@ -1,0 +1,732 @@
+/* start default-vars.less */
+/* ----- FONTS ----- */
+/* other */
+/*TODO*/
+/* Grey */
+/* form select box */
+/* newly added, were not migrated */
+/* end default-vars.less */
+/* start default-mixins.less */
+/**
+Example: .single-scoped(color, text, primary)
+Output: color: var(--scope-primary-text);
+ */
+/**
+Example: .scoped(color, text)
+Output: color: var(--scope-text);
+ */
+/* end default-mixins.less */
+/* ----- MEDIA BREAKPOINTS ----- */
+/* min?, xxs, xs, sm, md, lg, xl, max? */
+/* start shared-vars.less */
+/**
+  * Vars that are standardized over themes.
+ */
+/* ----- MEDIA BREAKPOINTS ----- */
+/* end shared-vars.less */
+/* start shared-vars.less */
+/**
+  * Vars that are standardized over themes.
+ */
+/* ----- MEDIA BREAKPOINTS ----- */
+/**
+  * Variable defined in design.scope.frontend and changeable in platform settings.
+ */
+/* end shared-vars.less */
+/* start shared-mapper.less */
+/* end shared-mapper.less */
+:root {
+    --scope-light-bg--grey: #808080;
+    --scope-light-bg--grey-bg: #bfbfbf;
+    --scope-light-bg--grey-text: #404040;
+    --scope-light-bg--text-bg: #808080;
+    --scope-light-bg--mix: #e6e6e6;
+    --scope-light-bg--rgba: rgba(255, 255, 255, 0);
+    --scope-light-bg--dark: #ececec;
+    --scope-light-bg--darker: #d9d9d9;
+    --scope-light-bg--darkest: #b3b3b3;
+    --scope-light-bg--light: #ffffff;
+    --scope-light-bg--lighter: #ffffff;
+    --scope-light-bg--lightest: #ffffff;
+    --scope-light-heading--grey: #808080;
+    --scope-light-heading--grey-bg: #bfbfbf;
+    --scope-light-heading--grey-text: #404040;
+    --scope-light-heading--text-bg: #808080;
+    --scope-light-heading--mix: #191919;
+    --scope-light-heading--rgba: rgba(0, 0, 0, 0);
+    --scope-light-heading--dark: #000000;
+    --scope-light-heading--darker: #000000;
+    --scope-light-heading--darkest: #000000;
+    --scope-light-heading--light: #131313;
+    --scope-light-heading--lighter: #262626;
+    --scope-light-heading--lightest: #4d4d4d;
+    --scope-light-text--grey: #808080;
+    --scope-light-text--grey-bg: #bfbfbf;
+    --scope-light-text--grey-text: #404040;
+    --scope-light-text--text-bg: #808080;
+    --scope-light-text--mix: #191919;
+    --scope-light-text--rgba: rgba(0, 0, 0, 0);
+    --scope-light-text--dark: #000000;
+    --scope-light-text--darker: #000000;
+    --scope-light-text--darkest: #000000;
+    --scope-light-text--light: #131313;
+    --scope-light-text--lighter: #262626;
+    --scope-light-text--lightest: #4d4d4d;
+    --scope-light-link--grey: #9fb8df;
+    --scope-light-link--grey-bg: #cfdbef;
+    --scope-light-link--grey-text: #505c70;
+    --scope-light-link--text-bg: #808080;
+    --scope-light-link--mix: #1971ff;
+    --scope-light-link--rgba: rgba(0, 97, 255, 0);
+    --scope-light-link--dark: #0052d9;
+    --scope-light-link--darker: #0044b3;
+    --scope-light-link--darkest: #002766;
+    --scope-light-link--light: #2679ff;
+    --scope-light-link--lighter: #4d90ff;
+    --scope-light-link--lightest: #99c0ff;
+    --scope-light-button-bg--grey: #9fb8df;
+    --scope-light-button-bg--grey-bg: #cfdbef;
+    --scope-light-button-bg--grey-text: #505c70;
+    --scope-light-button-bg--text-bg: #808080;
+    --scope-light-button-bg--mix: #1971ff;
+    --scope-light-button-bg--rgba: rgba(0, 97, 255, 0);
+    --scope-light-button-bg--dark: #0052d9;
+    --scope-light-button-bg--darker: #0044b3;
+    --scope-light-button-bg--darkest: #002766;
+    --scope-light-button-bg--light: #2679ff;
+    --scope-light-button-bg--lighter: #4d90ff;
+    --scope-light-button-bg--lightest: #99c0ff;
+    --scope-light-button-text--grey: #9fb8df;
+    --scope-light-button-text--grey-bg: #cfdbef;
+    --scope-light-button-text--grey-text: #505c70;
+    --scope-light-button-text--text-bg: #808080;
+    --scope-light-button-text--mix: #1971ff;
+    --scope-light-button-text--rgba: rgba(0, 97, 255, 0);
+    --scope-light-button-text--dark: #0052d9;
+    --scope-light-button-text--darker: #0044b3;
+    --scope-light-button-text--darkest: #002766;
+    --scope-light-button-text--light: #2679ff;
+    --scope-light-button-text--lighter: #4d90ff;
+    --scope-light-button-text--lightest: #99c0ff;
+    --scope-light-button-hover-bg--grey: #808080;
+    --scope-light-button-hover-bg--grey-bg: #bfbfbf;
+    --scope-light-button-hover-bg--grey-text: #404040;
+    --scope-light-button-hover-bg--text-bg: #808080;
+    --scope-light-button-hover-bg--mix: #191919;
+    --scope-light-button-hover-bg--rgba: rgba(0, 0, 0, 0);
+    --scope-light-button-hover-bg--dark: #000000;
+    --scope-light-button-hover-bg--darker: #000000;
+    --scope-light-button-hover-bg--darkest: #000000;
+    --scope-light-button-hover-bg--light: #131313;
+    --scope-light-button-hover-bg--lighter: #262626;
+    --scope-light-button-hover-bg--lightest: #4d4d4d;
+    --scope-light-button-hover-text--grey: #808080;
+    --scope-light-button-hover-text--grey-bg: #bfbfbf;
+    --scope-light-button-hover-text--grey-text: #404040;
+    --scope-light-button-hover-text--text-bg: #808080;
+    --scope-light-button-hover-text--mix: #e6e6e6;
+    --scope-light-button-hover-text--rgba: rgba(255, 255, 255, 0);
+    --scope-light-button-hover-text--dark: #ececec;
+    --scope-light-button-hover-text--darker: #d9d9d9;
+    --scope-light-button-hover-text--darkest: #b3b3b3;
+    --scope-light-button-hover-text--light: #ffffff;
+    --scope-light-button-hover-text--lighter: #ffffff;
+    --scope-light-button-hover-text--lightest: #ffffff;
+    --scope-dark-bg--grey: #919fb4;
+    --scope-dark-bg--grey-bg: #496ba1;
+    --scope-dark-bg--grey-text: #c8cfda;
+    --scope-dark-bg--text-bg: #809bc6;
+    --scope-dark-bg--mix: #194b98;
+    --scope-dark-bg--rgba: rgba(0, 55, 141, 0);
+    --scope-dark-bg--dark: #002867;
+    --scope-dark-bg--darker: #001941;
+    --scope-dark-bg--darkest: #000000;
+    --scope-dark-bg--light: #0046b3;
+    --scope-dark-bg--lighter: #0055da;
+    --scope-dark-bg--lightest: #277bff;
+    --scope-dark-heading--grey: #808080;
+    --scope-dark-heading--grey-bg: #405b86;
+    --scope-dark-heading--grey-text: #bfbfbf;
+    --scope-dark-heading--text-bg: #809bc6;
+    --scope-dark-heading--mix: #e6e6e6;
+    --scope-dark-heading--rgba: rgba(255, 255, 255, 0);
+    --scope-dark-heading--dark: #ececec;
+    --scope-dark-heading--darker: #d9d9d9;
+    --scope-dark-heading--darkest: #b3b3b3;
+    --scope-dark-heading--light: #ffffff;
+    --scope-dark-heading--lighter: #ffffff;
+    --scope-dark-heading--lightest: #ffffff;
+    --scope-dark-text--grey: #808080;
+    --scope-dark-text--grey-bg: #405b86;
+    --scope-dark-text--grey-text: #bfbfbf;
+    --scope-dark-text--text-bg: #809bc6;
+    --scope-dark-text--mix: #e6e6e6;
+    --scope-dark-text--rgba: rgba(255, 255, 255, 0);
+    --scope-dark-text--dark: #ececec;
+    --scope-dark-text--darker: #d9d9d9;
+    --scope-dark-text--darkest: #b3b3b3;
+    --scope-dark-text--light: #ffffff;
+    --scope-dark-text--lighter: #ffffff;
+    --scope-dark-text--lightest: #ffffff;
+    --scope-dark-link--grey: #808080;
+    --scope-dark-link--grey-bg: #405b86;
+    --scope-dark-link--grey-text: #bfbfbf;
+    --scope-dark-link--text-bg: #809bc6;
+    --scope-dark-link--mix: #e6e6e6;
+    --scope-dark-link--rgba: rgba(255, 255, 255, 0);
+    --scope-dark-link--dark: #ececec;
+    --scope-dark-link--darker: #d9d9d9;
+    --scope-dark-link--darkest: #b3b3b3;
+    --scope-dark-link--light: #ffffff;
+    --scope-dark-link--lighter: #ffffff;
+    --scope-dark-link--lightest: #ffffff;
+    --scope-dark-button-bg--grey: #b6c8e6;
+    --scope-dark-button-bg--grey-bg: #5b80b9;
+    --scope-dark-button-bg--grey-text: #dae4f2;
+    --scope-dark-button-bg--text-bg: #809bc6;
+    --scope-dark-button-bg--mix: #5093fc;
+    --scope-dark-button-bg--rgba: rgba(61, 135, 252, 0);
+    --scope-dark-button-bg--dark: #1770fb;
+    --scope-dark-button-bg--darker: #045ce9;
+    --scope-dark-button-bg--darkest: #023f9e;
+    --scope-dark-button-bg--light: #639efd;
+    --scope-dark-button-bg--lighter: #88b6fd;
+    --scope-dark-button-bg--lightest: #d4e4fe;
+    --scope-dark-button-text--grey: #808080;
+    --scope-dark-button-text--grey-bg: #405b86;
+    --scope-dark-button-text--grey-text: #bfbfbf;
+    --scope-dark-button-text--text-bg: #809bc6;
+    --scope-dark-button-text--mix: #191919;
+    --scope-dark-button-text--rgba: rgba(0, 0, 0, 0);
+    --scope-dark-button-text--dark: #000000;
+    --scope-dark-button-text--darker: #000000;
+    --scope-dark-button-text--darkest: #000000;
+    --scope-dark-button-text--light: #131313;
+    --scope-dark-button-text--lighter: #262626;
+    --scope-dark-button-text--lightest: #4d4d4d;
+    --scope-dark-button-hover-bg--grey: #9fdfd4;
+    --scope-dark-button-hover-bg--grey-bg: #508bb1;
+    --scope-dark-button-hover-bg--grey-text: #cfefea;
+    --scope-dark-button-hover-bg--text-bg: #809bc6;
+    --scope-dark-button-hover-bg--mix: #00e6bf;
+    --scope-dark-button-hover-bg--rgba: rgba(0, 255, 212, 0);
+    --scope-dark-button-hover-bg--dark: #00d9b4;
+    --scope-dark-button-hover-bg--darker: #00b394;
+    --scope-dark-button-hover-bg--darkest: #006655;
+    --scope-dark-button-hover-bg--light: #26ffda;
+    --scope-dark-button-hover-bg--lighter: #4dffe1;
+    --scope-dark-button-hover-bg--lightest: #99ffee;
+    --scope-dark-button-hover-text--grey: #808080;
+    --scope-dark-button-hover-text--grey-bg: #405b86;
+    --scope-dark-button-hover-text--grey-text: #bfbfbf;
+    --scope-dark-button-hover-text--text-bg: #809bc6;
+    --scope-dark-button-hover-text--mix: #191919;
+    --scope-dark-button-hover-text--rgba: rgba(0, 0, 0, 0);
+    --scope-dark-button-hover-text--dark: #000000;
+    --scope-dark-button-hover-text--darker: #000000;
+    --scope-dark-button-hover-text--darkest: #000000;
+    --scope-dark-button-hover-text--light: #131313;
+    --scope-dark-button-hover-text--lighter: #262626;
+    --scope-dark-button-hover-text--lightest: #4d4d4d;
+    --scope-primary-bg--grey: #808080;
+    --scope-primary-bg--grey-bg: #bfbfbf;
+    --scope-primary-bg--grey-text: #404040;
+    --scope-primary-bg--text-bg: #808080;
+    --scope-primary-bg--mix: #e6e6e6;
+    --scope-primary-bg--rgba: rgba(255, 255, 255, 0);
+    --scope-primary-bg--dark: #ececec;
+    --scope-primary-bg--darker: #d9d9d9;
+    --scope-primary-bg--darkest: #b3b3b3;
+    --scope-primary-bg--light: #ffffff;
+    --scope-primary-bg--lighter: #ffffff;
+    --scope-primary-bg--lightest: #ffffff;
+    --scope-primary-heading--grey: #808080;
+    --scope-primary-heading--grey-bg: #bfbfbf;
+    --scope-primary-heading--grey-text: #404040;
+    --scope-primary-heading--text-bg: #808080;
+    --scope-primary-heading--mix: #191919;
+    --scope-primary-heading--rgba: rgba(0, 0, 0, 0);
+    --scope-primary-heading--dark: #000000;
+    --scope-primary-heading--darker: #000000;
+    --scope-primary-heading--darkest: #000000;
+    --scope-primary-heading--light: #131313;
+    --scope-primary-heading--lighter: #262626;
+    --scope-primary-heading--lightest: #4d4d4d;
+    --scope-primary-text--grey: #808080;
+    --scope-primary-text--grey-bg: #bfbfbf;
+    --scope-primary-text--grey-text: #404040;
+    --scope-primary-text--text-bg: #808080;
+    --scope-primary-text--mix: #191919;
+    --scope-primary-text--rgba: rgba(0, 0, 0, 0);
+    --scope-primary-text--dark: #000000;
+    --scope-primary-text--darker: #000000;
+    --scope-primary-text--darkest: #000000;
+    --scope-primary-text--light: #131313;
+    --scope-primary-text--lighter: #262626;
+    --scope-primary-text--lightest: #4d4d4d;
+    --scope-primary-link--grey: #808080;
+    --scope-primary-link--grey-bg: #bfbfbf;
+    --scope-primary-link--grey-text: #404040;
+    --scope-primary-link--text-bg: #808080;
+    --scope-primary-link--mix: #191919;
+    --scope-primary-link--rgba: rgba(0, 0, 0, 0);
+    --scope-primary-link--dark: #000000;
+    --scope-primary-link--darker: #000000;
+    --scope-primary-link--darkest: #000000;
+    --scope-primary-link--light: #131313;
+    --scope-primary-link--lighter: #262626;
+    --scope-primary-link--lightest: #4d4d4d;
+    --scope-primary-button-bg--grey: #9fdfd4;
+    --scope-primary-button-bg--grey-bg: #cfefea;
+    --scope-primary-button-bg--grey-text: #50706a;
+    --scope-primary-button-bg--text-bg: #808080;
+    --scope-primary-button-bg--mix: #00e6bf;
+    --scope-primary-button-bg--rgba: rgba(0, 255, 212, 0);
+    --scope-primary-button-bg--dark: #00d9b4;
+    --scope-primary-button-bg--darker: #00b394;
+    --scope-primary-button-bg--darkest: #006655;
+    --scope-primary-button-bg--light: #26ffda;
+    --scope-primary-button-bg--lighter: #4dffe1;
+    --scope-primary-button-bg--lightest: #99ffee;
+    --scope-primary-button-text--grey: #808080;
+    --scope-primary-button-text--grey-bg: #bfbfbf;
+    --scope-primary-button-text--grey-text: #404040;
+    --scope-primary-button-text--text-bg: #808080;
+    --scope-primary-button-text--mix: #191919;
+    --scope-primary-button-text--rgba: rgba(0, 0, 0, 0);
+    --scope-primary-button-text--dark: #000000;
+    --scope-primary-button-text--darker: #000000;
+    --scope-primary-button-text--darkest: #000000;
+    --scope-primary-button-text--light: #131313;
+    --scope-primary-button-text--lighter: #262626;
+    --scope-primary-button-text--lightest: #4d4d4d;
+    --scope-primary-button-hover-bg--grey: #90b2ac;
+    --scope-primary-button-hover-bg--grey-bg: #c8d9d6;
+    --scope-primary-button-hover-bg--grey-text: #485956;
+    --scope-primary-button-hover-bg--text-bg: #808080;
+    --scope-primary-button-hover-bg--mix: #19937e;
+    --scope-primary-button-hover-bg--rgba: rgba(0, 135, 112, 0);
+    --scope-primary-button-hover-bg--dark: #006150;
+    --scope-primary-button-hover-bg--darker: #003b31;
+    --scope-primary-button-hover-bg--darkest: #000000;
+    --scope-primary-button-hover-bg--light: #00ad90;
+    --scope-primary-button-hover-bg--lighter: #00d3af;
+    --scope-primary-button-hover-bg--lightest: #21ffd9;
+    --scope-primary-button-hover-text--grey: #808080;
+    --scope-primary-button-hover-text--grey-bg: #bfbfbf;
+    --scope-primary-button-hover-text--grey-text: #404040;
+    --scope-primary-button-hover-text--text-bg: #808080;
+    --scope-primary-button-hover-text--mix: #e6e6e6;
+    --scope-primary-button-hover-text--rgba: rgba(255, 255, 255, 0);
+    --scope-primary-button-hover-text--dark: #ececec;
+    --scope-primary-button-hover-text--darker: #d9d9d9;
+    --scope-primary-button-hover-text--darkest: #b3b3b3;
+    --scope-primary-button-hover-text--light: #ffffff;
+    --scope-primary-button-hover-text--lighter: #ffffff;
+    --scope-primary-button-hover-text--lightest: #ffffff;
+    --scope-secondary-bg--grey: #6f5a50;
+    --scope-secondary-bg--grey-bg: #b58168;
+    --scope-secondary-bg--grey-text: #372d28;
+    --scope-secondary-bg--text-bg: #7e5541;
+    --scope-secondary-bg--mix: #e39874;
+    --scope-secondary-bg--rgba: rgba(252, 169, 129, 0);
+    --scope-secondary-bg--dark: #fb905c;
+    --scope-secondary-bg--darker: #fa7636;
+    --scope-secondary-bg--darkest: #df4c05;
+    --scope-secondary-bg--light: #fdc3a6;
+    --scope-secondary-bg--lighter: #fedccc;
+    --scope-secondary-bg--lightest: #ffffff;
+    --scope-secondary-heading--grey: #808080;
+    --scope-secondary-heading--grey-bg: #be9480;
+    --scope-secondary-heading--grey-text: #404040;
+    --scope-secondary-heading--text-bg: #7e5541;
+    --scope-secondary-heading--mix: #191919;
+    --scope-secondary-heading--rgba: rgba(0, 0, 0, 0);
+    --scope-secondary-heading--dark: #000000;
+    --scope-secondary-heading--darker: #000000;
+    --scope-secondary-heading--darkest: #000000;
+    --scope-secondary-heading--light: #131313;
+    --scope-secondary-heading--lighter: #262626;
+    --scope-secondary-heading--lightest: #4d4d4d;
+    --scope-secondary-text--grey: #808080;
+    --scope-secondary-text--grey-bg: #be9480;
+    --scope-secondary-text--grey-text: #404040;
+    --scope-secondary-text--text-bg: #7e5541;
+    --scope-secondary-text--mix: #191919;
+    --scope-secondary-text--rgba: rgba(0, 0, 0, 0);
+    --scope-secondary-text--dark: #000000;
+    --scope-secondary-text--darker: #000000;
+    --scope-secondary-text--darkest: #000000;
+    --scope-secondary-text--light: #131313;
+    --scope-secondary-text--lighter: #262626;
+    --scope-secondary-text--lightest: #4d4d4d;
+    --scope-secondary-link--grey: #808080;
+    --scope-secondary-link--grey-bg: #be9480;
+    --scope-secondary-link--grey-text: #404040;
+    --scope-secondary-link--text-bg: #7e5541;
+    --scope-secondary-link--mix: #191919;
+    --scope-secondary-link--rgba: rgba(0, 0, 0, 0);
+    --scope-secondary-link--dark: #000000;
+    --scope-secondary-link--darker: #000000;
+    --scope-secondary-link--darkest: #000000;
+    --scope-secondary-link--light: #131313;
+    --scope-secondary-link--lighter: #262626;
+    --scope-secondary-link--lightest: #4d4d4d;
+    --scope-secondary-button-bg--grey: #aa9fdf;
+    --scope-secondary-button-bg--grey-bg: #d3a4b0;
+    --scope-secondary-button-bg--grey-text: #555070;
+    --scope-secondary-button-bg--text-bg: #7e5541;
+    --scope-secondary-button-bg--mix: #4019ff;
+    --scope-secondary-button-bg--rgba: rgba(43, 0, 255, 0);
+    --scope-secondary-button-bg--dark: #2500d9;
+    --scope-secondary-button-bg--darker: #1e00b3;
+    --scope-secondary-button-bg--darkest: #110066;
+    --scope-secondary-button-bg--light: #4b26ff;
+    --scope-secondary-button-bg--lighter: #6b4dff;
+    --scope-secondary-button-bg--lightest: #aa99ff;
+    --scope-secondary-button-text--grey: #808080;
+    --scope-secondary-button-text--grey-bg: #be9480;
+    --scope-secondary-button-text--grey-text: #404040;
+    --scope-secondary-button-text--text-bg: #7e5541;
+    --scope-secondary-button-text--mix: #e6e6e6;
+    --scope-secondary-button-text--rgba: rgba(255, 255, 255, 0);
+    --scope-secondary-button-text--dark: #ececec;
+    --scope-secondary-button-text--darker: #d9d9d9;
+    --scope-secondary-button-text--darkest: #b3b3b3;
+    --scope-secondary-button-text--light: #ffffff;
+    --scope-secondary-button-text--lighter: #ffffff;
+    --scope-secondary-button-text--lightest: #ffffff;
+    --scope-secondary-button-hover-bg--grey: #9892b7;
+    --scope-secondary-button-hover-bg--grey-bg: #ca9e9c;
+    --scope-secondary-button-hover-bg--grey-text: #4c495b;
+    --scope-secondary-button-hover-bg--text-bg: #7e5541;
+    --scope-secondary-button-hover-bg--mix: #301a9e;
+    --scope-secondary-button-hover-bg--rgba: rgba(25, 1, 147, 0);
+    --scope-secondary-button-hover-bg--dark: #13016d;
+    --scope-secondary-button-hover-bg--darker: #0c0047;
+    --scope-secondary-button-hover-bg--darkest: #000000;
+    --scope-secondary-button-hover-bg--light: #1f01b9;
+    --scope-secondary-button-hover-bg--lighter: #2602df;
+    --scope-secondary-button-hover-bg--lightest: #512ffe;
+    --scope-secondary-button-hover-text--grey: #808080;
+    --scope-secondary-button-hover-text--grey-bg: #be9480;
+    --scope-secondary-button-hover-text--grey-text: #404040;
+    --scope-secondary-button-hover-text--text-bg: #7e5541;
+    --scope-secondary-button-hover-text--mix: #e6e6e6;
+    --scope-secondary-button-hover-text--rgba: rgba(255, 255, 255, 0);
+    --scope-secondary-button-hover-text--dark: #ececec;
+    --scope-secondary-button-hover-text--darker: #d9d9d9;
+    --scope-secondary-button-hover-text--darkest: #b3b3b3;
+    --scope-secondary-button-hover-text--light: #ffffff;
+    --scope-secondary-button-hover-text--lighter: #ffffff;
+    --scope-secondary-button-hover-text--lightest: #ffffff;
+}
+:root {
+    --color-p: #0061ff;
+    --color-s: #00FFD4;
+    --scope-light-bg: #fff;
+    --scope-light-heading: #000;
+    --scope-light-text: #000;
+    --scope-light-link: #0061ff;
+    --scope-light-button-bg: #0061ff;
+    --scope-light-button-text: #0061ff;
+    --scope-light-button-hover-bg: #000;
+    --scope-light-button-hover-text: #FFF;
+    --scope-dark-bg: #00378D;
+    --scope-dark-heading: #fff;
+    --scope-dark-text: #fff;
+    --scope-dark-link: #fff;
+    --scope-dark-button-bg: #3D87FC;
+    --scope-dark-button-text: #000;
+    --scope-dark-button-hover-bg: #00FFD4;
+    --scope-dark-button-hover-text: #000;
+    --scope-primary-bg: #fff;
+    --scope-primary-heading: #000;
+    --scope-primary-text: #000;
+    --scope-primary-link: #000;
+    --scope-primary-button-bg: #00FFD4;
+    --scope-primary-button-text: #000;
+    --scope-primary-button-hover-bg: #008770;
+    --scope-primary-button-hover-text: #fff;
+    --scope-secondary-bg: #fca981;
+    --scope-secondary-heading: #000;
+    --scope-secondary-text: #000;
+    --scope-secondary-link: #000;
+    --scope-secondary-button-bg: #2B00FF;
+    --scope-secondary-button-text: #fff;
+    --scope-secondary-button-hover-bg: #190193;
+    --scope-secondary-button-hover-text: #fff;
+    --scope-header-bg: #fff;
+    --scope-header-heading: #000;
+    --scope-header-text: #000;
+    --scope-header-link: #000;
+    --scope-header-button-bg: #00FFD4;
+    --scope-header-button-text: #000;
+    --scope-header-button-hover-bg: #008770;
+    --scope-header-button-hover-text: #fff;
+}
+/* end root vars */
+.a-header {
+    box-shadow: 0 12px 48px 4px rgba(0, 0, 0, 0.133);
+}
+.a-header .s-logo-desktop {
+    padding-right: var(--spacing-sm);
+}
+/*  end custom css */
+.__action-190[class~="__pb-a"] {
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+.__action-187[class~="__pb-a"] {
+    position: fixed;
+    z-index: 0;
+    display: none;
+}
+.__action-194[class~="__pb-a"] {
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-md);
+}
+.__action-198[class~="__pb-a"] {
+    margin-bottom: var(--spacing-md);
+}
+.__action-206[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-right: var(--spacing-lg);
+    padding-left: var(--spacing-md);
+}
+.__action-212[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+}
+.__action-214[class~="__pb-a"] {
+    padding-top: var(--spacing-sm);
+}
+.__action-208[class~="__pb-a"] {
+    padding-bottom: var(--spacing-lg);
+}
+.__action-215[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+}
+.__action-220[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+.__action-222[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+.__action-227[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+.__action-229[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+.__action-234[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-right: var(--spacing-lg);
+    padding-bottom: var(--spacing-md);
+    padding-left: var(--spacing-md);
+}
+.__action-236[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+}
+.__action-241[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+.__action-243[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+.__action-195[class~="__pb-a"] {
+    text-align: center;
+}
+.__action-244[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+}
+.__action-245[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+}
+.__action-251[class~="__pb-a"] {
+    margin-top: var(--spacing-lg);
+}
+.__action-109[class~="__pb-a"] {
+    --item-width: var(--column-md);
+    --gap-width: var(--spacing-md);
+}
+.__action-264[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+.__action-266[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+.__action-267[class~="__pb-a"] {
+    margin-top: var(--spacing-md);
+}
+.__action-3[class~="__pb-a"] {
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+}
+.__action-7[class~="__pb-a"] {
+    text-align: center;
+}
+.__action-9[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+.__action-10[class~="__pb-a"] {
+    margin-top: var(--spacing-lg);
+}
+.__action-16[class~="__pb-a"] {
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+}
+.__action-20[class~="__pb-a"] {
+    margin-top: var(--spacing-md);
+}
+.__action-22[class~="__pb-a"] {
+    margin-top: var(--spacing-lg);
+}
+.__action-24[class~="__pb-a"] {
+    width: 100%;
+    height: 0;
+    padding-bottom: 42.85714286%;
+    margin-top: var(--spacing-lg);
+}
+.__action-29[class~="__pb-a"] {
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+}
+.__action-34[class~="__pb-a"] {
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+}
+.__action-42[class~="__pb-a"] {
+    margin-top: var(--spacing-md);
+}
+.__action-43[class~="__pb-a"] {
+    padding-top: var(--spacing-xxl);
+    padding-bottom: var(--spacing-lg);
+}
+.__action-48[class~="__pb-a"] {
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-sm);
+}
+.__action-52[class~="__pb-a"] {
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+}
+.__action-62[class~="__pb-a"] {
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+}
+.__action-67[class~="__pb-a"] {
+    margin-top: var(--spacing-md);
+}
+.__action-70[class~="__pb-a"] {
+    margin-top: var(--spacing-sm);
+}
+.__action-71[class~="__pb-a"] {
+    margin-top: var(--spacing-sm);
+}
+.__action-74[class~="__pb-a"] {
+    padding-top: var(--spacing-xxl);
+    padding-bottom: var(--spacing-lg);
+}
+.__action-79[class~="__pb-a"] {
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-sm);
+}
+.__action-84[class~="__pb-a"] {
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+}
+.__action-94[class~="__pb-a"] {
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+}
+.__action-99[class~="__pb-a"] {
+    margin-top: var(--spacing-md);
+}
+.__action-102[class~="__pb-a"] {
+    margin-top: var(--spacing-sm);
+}
+.__action-103[class~="__pb-a"] {
+    margin-top: var(--spacing-sm);
+}
+.__action-106[class~="__pb-a"] {
+    margin-bottom: var(--spacing-lg);
+}
+.__action-108[class~="__pb-a"] {
+    margin-top: var(--spacing-lg);
+}
+.__action-110[class~="__pb-a"] {
+    padding-top: var(--spacing-xl);
+}
+.__action-128[class~="__pb-a"] {
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+}
+.__action-135[class~="__pb-a"] {
+    margin-top: var(--spacing-xs);
+}
+.__action-142[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+.__action-154[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+.__action-159[class~="__pb-a"] {
+    text-align: center;
+    padding-left: var(--spacing-md);
+    padding-right: var(--spacing-md);
+    padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+}
+.__action-160[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+.__action-166[class~="__pb-a"] {
+    margin-top: var(--spacing-md);
+}
+.__action-175[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+    padding-bottom: var(--spacing-md);
+}
+.__action-184[class~="__pb-a"] {
+    padding-top: var(--spacing-md);
+}
+@media only screen and (min-width: 768px) {
+    .__action-244[class~="__pb-a"] {
+        padding-right: var(--spacing-sm);
+    }
+    .__action-246[class~="__pb-a"] {
+        margin-bottom: var(--spacing-md);
+    }
+    .__action-258[class~="__pb-a"] {
+        padding-right: var(--spacing-sm);
+    }
+}
+@media only screen and (min-width: 992px) {
+    .__action-244[class~="__pb-a"] {
+        padding-right: var(--spacing-md);
+    }
+    .__action-258[class~="__pb-a"] {
+        padding-right: var(--spacing-md);
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .__action-244[class~="__pb-a"] {
+        padding-right: var(--spacing-lg);
+    }
+    .__action-258[class~="__pb-a"] {
+        padding-right: var(--spacing-lg);
+    }
+}
+/* end actions css */
